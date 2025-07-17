@@ -1,13 +1,3 @@
-// * compensate for versatile banner top margin off-set *
-
-#main-outlet {
-  margin-top: -25px;
-}
-
-//  * disable faq *
-
-.nav-pills .nav-item-faq {display: none}
-
 // banner code
 
 #homepage-banner {
@@ -109,15 +99,6 @@ span.username {
   }
 } 
 
-// GridironGirl's favorite color! 
-
-a.mention[data-mention="GridironGirl"] {
-color: #a100db!important;
-}
-
-span.username a[data-user-card="GridironGirl"] {
-  color: #a100db;
-}
 
 // image alignment with text in posts
 
