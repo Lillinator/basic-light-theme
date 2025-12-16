@@ -3,6 +3,7 @@
   "about_url": "https://github.com/Lillinator/basic-light-theme/blob/main/README.md",
   "license_url": "https://github.com/Lillinator/basic-light-theme/blob/main/LICENSE",
    "assets": {
+        "grey-cup": "assets/grey-cup.jpg"
    },
    "color_schemes": {
        "Light Basic Colors": {

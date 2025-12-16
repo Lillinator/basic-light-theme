@@ -1,40 +1,5 @@
 
-// * text formatting *
-
-/*Change color differentiating ADMIN users from MOD users*/
-span.username {
-  &.moderator .d-icon.d-icon-shield-alt {
-    color: #d5b907;
-  }
-  &.admin .d-icon.d-icon-shield-alt {
-    color: #969696;
-  }
-} 
-
-
-// image alignment with text in posts
-
-[data-theme-image="left"] {
-    float: left;
-    img {
-      margin: 1em 1em 0 0;
-    }
-}
-
-[data-theme-image="right"] {
-    float: right;
-    img {
-      margin: 0em 0em 0em 1em;
-    }
-}
-
 // * body contents
-
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans:100,400,600");
-body {
-    font-family: 'Noto Sans', sans-serif;
-    //font-size: 16px;
-}
 
 .wrap {
     max-width: var(--d-max-width);
@@ -64,23 +29,12 @@ body {
     background-color: rgba(#ffffff, 0.86);
 }
 
-// * header color override *
-
-//.d-header {
-//    background: rgba(#000000, 0.80);    
-//}
-
 .nav-pills > li > a {
     font-size: 16px;
     font-weight: bold;
     border-radius: 12px;
     padding: 8px 12px 8px 12px;
 }
-
-//.select-kit.combo-box.category-drop .category-drop-header {
-//  border-radius: 12px;
-//  padding: 8px 12px 8px 12px;
-//}
 
 .btn, .select-kit.dropdown-select-box .dropdown-select-box-header {
   border-radius: 10px;
@@ -106,4 +60,3 @@ nav.post-controls .actions button {
     }
   }
 }
-
