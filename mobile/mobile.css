@@ -29,3 +29,7 @@
   }
  
 }
+
+.has-full-page-chat .c-header .back-to-forum {
+    color: var(--secondary-high);
+}
